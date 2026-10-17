@@ -1,0 +1,81 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "PFM-LS: A Level Set Method on Particle Flow Maps, in NVIDIA Warp"
+type: software
+license: MIT
+version: 0.1.0
+repository-code: "https://github.com/jinjinhe2001/Particle-Flowmap-Levelset"
+abstract: >-
+  A GPU implementation in NVIDIA Warp of the level set method on particle flow maps (PFM-LS), with 2D and 3D level
+  sets, the paper's interface-tracking benchmarks (Zalesak's disk, LeVeque's vortex, the Distorted flow and the 3D
+  deformed sphere), the paper's 2D droplet-splash free-surface example and a 2D dam break.
+keywords:
+  - level set method
+  - particle flow map
+  - interface tracking
+  - free-surface flow
+  - NVIDIA Warp
+  - GPU
+authors:
+  - family-names: He
+    given-names: Jinjin
+    affiliation: Georgia Institute of Technology
+    orcid: "https://orcid.org/0009-0000-4319-1191"
+preferred-citation:
+  type: article
+  title: "A Level Set Method on Particle Flow Maps"
+  journal: "International Journal for Numerical Methods in Engineering"
+  volume: 127
+  issue: 20
+  start: "e70441"
+  year: 2026
+  doi: 10.1002/nme.70441
+  url: "https://doi.org/10.1002/nme.70441"
+  identifiers:
+    - type: doi
+      value: 10.48550/arXiv.2601.09939
+      description: arXiv preprint (arXiv:2601.09939)
+  authors:
+    - family-names: He
+      given-names: Jinjin
+      affiliation: Georgia Institute of Technology
+    - family-names: Zhang
+      given-names: Taiyuan
+      affiliation: Dartmouth College
+    - family-names: Li
+      given-names: Zhiqi
+      affiliation: Georgia Institute of Technology
+    - family-names: Zhou
+      given-names: Junwei
+      affiliation: University of Michigan
+    - family-names: Chen
+      given-names: Duowen
+      affiliation: Georgia Institute of Technology
+    - family-names: Zhu
+      given-names: Bo
+      affiliation: Georgia Institute of Technology
+references:
+  - type: article
+    title: "Eulerian-Lagrangian Fluid Simulation on Particle Flow Maps"
+    journal: "ACM Transactions on Graphics"
+    volume: 43
+    issue: 4
+    year: 2024
+    doi: 10.1145/3658180
+    authors:
+      - family-names: Zhou
+        given-names: Junwei
+      - family-names: Chen
+        given-names: Duowen
+      - family-names: Deng
+        given-names: Molin
+      - family-names: Deng
+        given-names: Yitong
+      - family-names: Sun
+        given-names: Yuchen
+      - family-names: Wang
+        given-names: Sinan
+      - family-names: Xiong
+        given-names: Shiying
+      - family-names: Zhu
+        given-names: Bo
